@@ -16,6 +16,7 @@
 
   onMount(() => {
     console.log("obj mounted");
+    getAllData();
     window.setInterval(() => {
                     getAllData();
                 }, 3000)
@@ -24,7 +25,7 @@
 <!-- ########## STYLE CONFIGRATION      ##################### -->
 <style>
   tr.rows:hover {
-    background-color: rgb(214, 255, 253);
+    background-color: rgb(225, 233, 243);
   }
 </style>
 <!-- ########## STYLE CONFIGRATION      ##################### -->
@@ -32,7 +33,7 @@
 
 <div id="app" class="container">
   <div class="fix-top bg-dark">
-    <h1 class="text-white">Rezonans DashBoard</h1>
+    <h1 class="text-white">Svelte</h1>
   </div>
   <table class="table">
     <thead class="thead-dark">
