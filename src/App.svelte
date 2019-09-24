@@ -13,6 +13,7 @@
       console.log(data);
     });
   }
+
   onMount(() => {
     console.log("obj mounted");
     window.setInterval(() => {
@@ -20,12 +21,14 @@
                 }, 3000)
   });
 </script>
-
+<!-- ########## STYLE CONFIGRATION      ##################### -->
 <style>
   tr.rows:hover {
     background-color: rgb(214, 255, 253);
   }
 </style>
+<!-- ########## STYLE CONFIGRATION      ##################### -->
+
 
 <div id="app" class="container">
   <div class="fix-top bg-dark">
